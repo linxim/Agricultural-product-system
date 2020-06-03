@@ -1,0 +1,45 @@
+.pageheader > ul > li {
+    float: right;
+  }
+  .el-menu-demo-underline > .el-menu-item:hover {
+    border-bottom-color: #eef1f6 !important;
+    color: #48ba9e;
+  }
+  .input-checkbox{
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+.box1{
+  margin: 0 auto;
+  width: 70%;
+}
+.h2{
+  text-align: center;
+}
+.title1{
+  border-bottom: 1px solid pink;
+}
+.title1 :nth-child(1){
+  position: relative;
+  left: 56px;
+}
+.title1 :nth-child(2){
+  position: relative;
+  left: 155px;
+}
+
+.title1 :nth-child(3){
+  position: relative;
+  left: 480px;
+}
+
+.title1 :nth-child(4){
+  position: relative;
+  left: 220px;
+}
+
+.title1 :nth-child(5){
+  position: relative;
+  left: 656px;
+}

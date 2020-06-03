@@ -1,0 +1,30 @@
+.text_content{
+  width: 1150px;
+  margin: 0 auto;
+
+}
+.slide_images{
+  width: 4160px;
+  margin-top: 100px;
+  animation: move1 linear 20s infinite ;
+  transform: translate3d(0, 0, 0);
+}
+.slide_images>img{
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+.slide_images:hover{
+  animation-play-state:paused;
+}
+@keyframes move1{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-68.75%);
+  }
+}
+.pageheader > ul > li {
+  float: right;
+}

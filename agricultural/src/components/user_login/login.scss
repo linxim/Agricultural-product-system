@@ -1,0 +1,64 @@
+.body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: #000;
+    background-image: url('../../../static/img/login_img/bgn.jpg');
+    background-size: 100%;
+  }
+  .body-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: #000;
+  }
+  .el-row {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  pre {
+    display: inline-block;
+    width: 15px;
+  }
+  .title {
+    text-align: center;
+  }
+  .input {
+    text-align: center;
+  }
+  .title {
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+      'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    font-size: 25px;
+  }
+  .el-col-offset-6 {
+    margin-left: 15%;
+  }
+  .el-button {
+    margin-top: 10px;
+  }
+  .box {
+    text-align: center;
+    width: 450px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+  }
+  .code {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+  }
+  

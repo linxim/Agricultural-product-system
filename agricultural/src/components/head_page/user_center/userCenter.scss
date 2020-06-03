@@ -1,0 +1,55 @@
+.userContent {
+  width: 400px;
+  height: 100%;
+  position: absolute;
+  top:100px;
+  left: 300px;
+  
+}
+.select-sex {
+  width: 320px;
+}
+.crumbs{
+    width: 200px;
+    height: 300px;
+    top: 10px;
+    position: relative;
+}
+.pageheader > ul > li {
+  float: right;
+}
+.img-btn>>>.el-upload__input{
+  font-size: 40px !important; 
+  display: none !important;
+  
+}
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.username{
+  float: left;
+  position: absolute;
+  left: 130px;
+  top: 50px;
+}
+.edit{
+  float: left;
+  position: absolute;
+  left: 350px;
+  width: 50px;
+  height: 10px;
+  cursor: pointer;
+}
+.edit:hover{
+  text-decoration: none;
+}
+.username_style{
+  width: 50px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}

@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+}
+.head_bg{
+    width: 800px;
+    height: 130px;
+    margin:0 auto;
+    background: url('../../../static/img/shopcart_img/logo_bg.jpg') no-repeat;
+    background-size: 100%;
+    display: flex;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.logo_size {
+  padding-top: 20px;
+  width: 100px;
+}
+
+.logo_size>img {
+  width: 110px;
+  height: 110px;
+}
+
+.centerShop {
+margin:0 auto;
+   width: 780px;
+  
+}
+.head_nav{
+   margin-top:40px;
+   margin-left: 100px;
+   text-align: center;
+   width: 300px;
+   height: 100px;
+}
+.head_nav>li{
+    color: white;
+    font-size: 30px;
+    list-style: none;
+    display: inline-block;
+    margin-left:30px;
+}
+
+.router-link-active{
+  text-decoration: none;  
+}
+
+.el-dropdown-link {
+  cursor: pointer;
+  color: #409EFF;
+}
+.el-icon-arrow-down {
+  font-size: 12px;
+}
+.demonstration {
+  display: block;
+  color: #8492a6;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.btn-add{
+  padding: 6px;
+
+}
+.cart_body{
+  position: relative;
+  top:20px;
+}
+.cart_mess{
+  width:150px;
+  height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow:ellipsis;
+}
+.item_title >a {
+  font-size: 16px;
+  display: block;
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #111010;
+  text-decoration: none;
+}
+.item_title >a:hover{
+  color: #f40;
+}
+.item_title{
+  width: 260px;
+ 
+}

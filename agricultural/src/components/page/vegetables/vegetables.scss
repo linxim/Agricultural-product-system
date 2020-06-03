@@ -1,0 +1,135 @@
+
+.travel {
+    width: 1050px;
+    /* height:500px; */
+    margin: 50px auto 30px;
+    /* background: #b674cc; */
+  }
+  .travel-top {
+    width: 100%;
+    height: 60px;
+    padding-top: 1px;
+    box-sizing: border-box;
+    /* background: #eaf; */
+  }
+  
+  .travel-logo {
+    width: 50px;
+    height: 40px;
+    float: left;
+    /* background: #a31; */
+  }
+  .img-name {
+    height: 49px;
+    color: #484848;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 49px;
+    z-index: 9;
+    position: relative;
+    left: -22px;
+    bottom: 53px;
+    border-radius: 0 50px 0 12px;
+    display: inline-block;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background: rgba(255, 254, 254, 0.6);
+  }
+  .travel-logo > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .travel-title {
+    width: 981px;
+    height: 60px;
+    float: left;
+    margin-left: 12px;
+    /* background: #a90; */
+  }
+  .travel-max {
+    width: 981px;
+    height: 40px;
+    line-height: 40px;
+    color: #484848;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "PingFang SC", "Hiragino Sans GB", Arial, Verdana, Tahoma,
+      "微软雅黑" !important;
+    /* background: #9be; */
+  }
+  .travel-min {
+    width: 981px;
+    height: 20px;
+    color: #767676;
+    line-height: 20px;
+    font-size: 14px;
+    /* background: #e90; */
+  }
+  
+  .travel-conter {
+    width: 100%;
+    /* height: 461px; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* background: rgb(161, 223, 136); */
+  }
+  
+.litter-box {
+    width: 515px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    /* background: #23f; */
+  }
+  .litter-img {
+    width: 248px;
+    height: 180px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    /* background: #efa; */
+  }
+  .litter-img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  .litter-img > img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s;
+  }
+  
+  
+.theme-left {
+    width: 515px;
+  }
+  
+  .theme {
+    width: 515px;
+    height: 380px;
+    background: #bae;
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .theme > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+  
+  .theme > img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s;
+  }
+  .theme-right {
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
